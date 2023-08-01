@@ -5,7 +5,7 @@ function Servicios() {
 
     return (
         <>
-            <section id="servicios" className="pt-6">
+            <section id="servicios" className="servicios">
                 <h2
                     className=" title-servicios ">
                     Nuestros servicios</h2>

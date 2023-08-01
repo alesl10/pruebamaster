@@ -20,8 +20,8 @@ function App() {
       </div>
       <Header />
       <Carousel />
-      <Inicio />
       <Productos products={products}/>
+      <Inicio />
       <QuienesSomos/>
       <Servicios/>
       <Contacto/>

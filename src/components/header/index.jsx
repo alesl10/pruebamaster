@@ -1,12 +1,11 @@
 
 const Header = () => {
 
-    
+
     return (
-        <nav class="navbar navbar-expand-lg naavbar ">
+        <nav class="navbar navbar-expand-lg naavbar " >
             <div class="container-fluid">
-                <div>
-                    <img src="./public/images/logofinal.png" class="navbar-brand logo " href="#"></img>
+                <div><img src="./images/logofinal.png"  class="navbar-brand logo " href="#"></img>
                 </div>
                 <div>
                     <div class="collapse navbar-collapse" id="navbarNav">

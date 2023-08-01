@@ -28,30 +28,31 @@ function Productos({ products }) {
     return (
         <>
             <section id="productos" >
-                <div className="">
-                    <h3 className="titulo-productos "> Nuestros productos destacados</h3>
+                <h3 className="titulo-productos "> Nuestros productos destacados</h3>
 
-                    <div class="contenedor-carousel">
-
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
                         {destacados.map(p => (
-
-                            <div class="card-item">
-                                <img src={p.image4} class=" image-destacados " alt="..." />
-                                <p className='texto-destacados'>{p.nombre}</p>
+                            <div class="carousel-item active">
+                                <div class="card-item">
+                                    <img src={p.image4} class=" image-destacados " alt="..." />
+                                    <p className='texto-destacados'>{p.nombre}</p>
+                                </div>
                             </div>
 
                         ))}
-
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div className='allProducts'>
-                    <h3 className='titulo-productos'>Todos los productos</h3>
-                    <button className='products-button'>Ver mas</button>
-                </div>
-
 
             </section >
-
         </>
     )
 }

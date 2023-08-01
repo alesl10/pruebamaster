@@ -1,12 +1,11 @@
-section-quienes {
+.section-quienes {
     position: relative;
     text-align: center;
     color: white;
 }
 
 .title-quienes {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     text-decoration: underline;
     margin-bottom: 1.5rem;

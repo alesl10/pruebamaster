@@ -2,24 +2,37 @@
     color: white;
     font-size: 2rem;
     text-align: center;
-}
-
-.container-contact{
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem;
+    text-decoration: underline;
 }
 
 .container-form{
-    background-color: yellow;
-    width: 50%;
-
+color: white;
+justify-content: center;
+display: flex;
+margin-top: 3rem;
 }
 
+.container-form-text {
+    display: flex;
+    flex-direction: column;
+    width:40rem;
+    font-size: 1.1rem;
+}
 
 .etiqueta-form{
-    width: 100%;
-    padding: 0.4rem;
+    display: flex;
+justify-content: space-between;
 }
 
+input{
+    width: 50%;
+}
 
+textarea{
+    font-weight: bold;
+    width: 100%;
+}
+
+.boton-form:hover{
+background-color: orange;
+}

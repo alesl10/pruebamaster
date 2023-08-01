@@ -1,0 +1,14 @@
+.inicio-title{
+    color: white;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.inicio-text{
+    color: white;
+}

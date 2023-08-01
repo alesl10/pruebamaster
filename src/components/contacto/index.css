@@ -1,0 +1,25 @@
+.text-contact{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.container-form{
+    background-color: yellow;
+    width: 50%;
+
+}
+
+
+.etiqueta-form{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+

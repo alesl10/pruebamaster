@@ -1,0 +1,28 @@
+.title-servicios{
+    text-decoration-color: orange;
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    margin: 2rem;
+}
+
+.container-servicios{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.icon-serv{
+    width: 6rem;
+    height: auto;
+}
+
+.container-icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}

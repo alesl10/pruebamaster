@@ -9,6 +9,7 @@
     object-fit: cover;
     margin: auto;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 .textcard{
@@ -18,10 +19,9 @@
 }
 
 .titulo-productos {
-    color: white;
-    font-size: 2.5rem;
+    color: #ebae6f;
+    font-size: 2.3rem;
     text-align: center;
-    text-decoration: underline;
     margin: 3rem;
 }
 
@@ -33,4 +33,16 @@
 
 .cardimg:hover{
     filter: contrast(150%);
+    transform: scale(110%);
+    transition: all 0.5s ease-in;
+}
+
+.boton{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 4px;
+display: block;
+margin: auto
 }

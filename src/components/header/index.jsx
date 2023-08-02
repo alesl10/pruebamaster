@@ -19,8 +19,10 @@ const Header = () => {
     return (
         <nav class="navbar navbar-expand-lg naavbar " id="navbar">
             <div class="container-fluid">
-                <div><img src="./images/logofinal.png" class="navbar-brand logo " href="#"></img>
+                <div>
+                    
                 </div>
+                    <img src="./images/logofinal.png" class="navbar-brand logo " href="#"></img>
                 <div>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">

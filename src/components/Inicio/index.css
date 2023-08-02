@@ -1,28 +1,16 @@
-
-
-.inicio{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
 .inicio-text{
-    color: orange;
+    color: #ebae6f;
     text-shadow: 1px 1px 1px white;
     
 }
 
 .boton{
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding-left: 1em;
-    padding-right: 1em;
-    border-radius: 4px;
+    color: #ebae6f;
+    border: 2px solid #ebae6f;
 }
 
 .boton:hover{
-    background-color: orange;
+    background-color: #ebae6f;
     color: white;
 }
 

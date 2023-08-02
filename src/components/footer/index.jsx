@@ -7,7 +7,7 @@ function Footer() {
             <footer className="footer-container">
                 <div className='footerredes'>
                     <div >
-                        <h4 className='redestext'>Seguinos en nuestras redes <br /> para mas novedades</h4>
+                        <h4 className='redestext'>¡Seguinos en nuestras redes <br /> para mas novedades!</h4>
                     </div>
                     <div>
                         <div className="text-center">

@@ -1,6 +1,6 @@
 export default [
     {
-        "nombre": "dulce de leche",
+        "nombre": "Dulce de leche repostero",
         "cantidad": 10,
         "medida": "kg",
         image1: './images/dulce1.jpg',
@@ -11,7 +11,7 @@ export default [
 
     },
     {
-        "nombre": "dulce de leche",
+        "nombre": "dulce de leche repostero",
         "cantidad": 10,
         "medida": "kg",
         image1: './images/dulce1.jpg',
@@ -23,7 +23,7 @@ export default [
 
     },
     {
-        "nombre": "dulce de leche",
+        "nombre": "dulce de leche repostero",
         "cantidad": 10,
         "medida": "kg",
         image1: './images/dulce1.jpg',
@@ -37,9 +37,8 @@ export default [
         "cantidad": 5,
         "medida": "kg",
         "categoria": "azucares",
-        image3: './images/merme1.jpg',
-        image4: './images/merm2.jpg',
-        "descatado": true
+
+        "descatado": false
 
     },
     {
@@ -398,9 +397,8 @@ export default [
         "cantidad": 10,
         "medida": "kg",
         "categoria": "otros",
-        image3: '../../public/images/jalea3.jpg',
-        image4: '../../public/images/jalea1.jpg',
-        "descatado": true
+        
+        "descatado": false
     },
     {
         "nombre": "Malta",
@@ -416,4 +414,15 @@ export default [
         "categoria": "otros",
         "descatado": false
     },
+    {
+        "nombre": "Mermelada",
+        "cantidad": 27,
+        "medida": "lt",
+        "categoria": "otros",
+        image4: './images/merm2.jpg',
+        "descatado": false
+    },
+  
+    
+
 ]

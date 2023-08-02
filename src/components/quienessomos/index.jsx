@@ -8,7 +8,7 @@ function QuienesSomos() {
 
             <section id="quienesSomos" className="section-quienes">
                 <p className="title-quienes">¿Quienes somos?</p>
-                <div className="flex flex-grow items-center bg-orange-300/90 container-quienes ">
+                <div className=" container-quienes ">
 
                     <img className="img-quienes" src="./images/pngwing.com.png" alt="chef image"/>
 

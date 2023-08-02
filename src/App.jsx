@@ -1,7 +1,6 @@
 import Header from '../src/components/header'
 import Inicio from './components/Inicio'
 import Carousel from './components/carousel'
-import products from './mocks/products'
 import Productos from './components/productos'
 import QuienesSomos from './components/quienessomos'
 import Servicios from './components/servicios'
@@ -19,12 +18,12 @@ function App() {
       </div>
       <Header />
       <Carousel />
-      <Productos products={products}/>
-        <Inicio />
-        <QuienesSomos/>
-        <Servicios/>
-        <Contacto/>
-        <Footer/>
+      <Productos />
+      <Inicio />
+      <QuienesSomos />
+      <Servicios />
+      <Contacto />
+      <Footer />
     </>
   )
 }

@@ -1,8 +1,7 @@
 .title-servicios{
-    text-decoration-color: orange;
-    color: white;
-    font-size: 2.5rem;
-    text-decoration: underline;
+    text-decoration-color: #ebae6f;
+    color: #ebae6f;
+    font-size: 2.3rem;
     text-align: center;
     margin: 2rem;
 }
@@ -15,7 +14,7 @@
 }
 
 .icon-serv{
-    width: 6rem;
+    width: 5rem;
     height: auto;
 }
 
@@ -30,6 +29,5 @@
 .servicios{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     gap: 2rem;
 }

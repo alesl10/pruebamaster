@@ -1,8 +1,7 @@
 .text-contact{
-    color: white;
-    font-size: 2.5rem;
+    color: #ebae6f;
+    font-size: 2.3rem;
     text-align: center;
-    text-decoration: underline;
 }
 
 .container-form{
@@ -17,7 +16,7 @@ margin-top: 3rem;
     flex-direction: column;
     width:40rem;
     font-size: 1.1rem;
-    border: 3px solid orange;
+    border: 3px solid #ebae6f;
     padding: 2rem;
 }
 
@@ -36,5 +35,5 @@ textarea{
 }
 
 .boton-form:hover{
-background-color: orange;
+background-color: #ebae6f;
 }

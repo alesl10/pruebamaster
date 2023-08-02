@@ -4,10 +4,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import destacados from '../../mocks/destacados.jsx'
 
-function Productos({ products }) {
-
-    const destacados = products.filter(p => p.descatado == true)
+function Productos() {
 
     var settings = {
         dots: true,
@@ -47,14 +46,13 @@ function Productos({ products }) {
     return (
         <div id='producto'>
 
-        <h3 className='titulo-productos'>Nuestros productos</h3>
-            <div className='app'>
+            <h3 className='titulo-productos'>Productos destacados</h3>
+            <div className='app container'>
                 <Slider {...settings} >
                     {destacados.map(p => (
                         <div className='card-container'>
                             <div className='card-top'>
                                 <img src={p.image4} alt="" className='cardimg' />
-                                <p className='textcard'>{p.nombre}</p>
                             </div>
                         </div>
                     ))}

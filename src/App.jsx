@@ -8,7 +8,6 @@ import Servicios from './components/servicios'
 import Footer from './components/footer'
 import Contacto from './components/contacto'
 
-
 function App() {
 
   return (
@@ -21,11 +20,11 @@ function App() {
       <Header />
       <Carousel />
       <Productos products={products}/>
-      <Inicio />
-      <QuienesSomos/>
-      <Servicios/>
-      <Contacto/>
-      <Footer/>
+        <Inicio />
+        <QuienesSomos/>
+        <Servicios/>
+        <Contacto/>
+        <Footer/>
     </>
   )
 }

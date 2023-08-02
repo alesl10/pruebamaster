@@ -8,10 +8,10 @@ const Carousel = () => {
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img src="./images/1.jpg" class=" d-block imagen " alt="..." />
+                        <img src="./images/2.jpg" class=" d-block imagen " alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/2.jpg" class="d-block imagen" alt="..." />
+                        <img src="./images/1.jpg" class="d-block imagen" alt="..." />
                     </div>
                     <div class="carousel-item">
                         <img src="./images/3.jpg" class="d-block imagen" alt="..." />

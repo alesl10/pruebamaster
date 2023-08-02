@@ -2,19 +2,33 @@
 const Header = () => {
 
 
+    window.addEventListener('scroll', function () {
+        const navbar = document.querySelector('#navbar')
+        const scrolled = window.scrollY > 200;
+        
+        if (scrolled) {
+            navbar.classList.remove('naavbar')
+            navbar.classList.add('naavbarscrolled')
+        } else {
+            navbar.classList.remove('naavbarscrolled')
+            navbar.classList.add('naavbar')
+        }
+
+    })
+
     return (
-        <nav class="navbar navbar-expand-lg naavbar " >
+        <nav class="navbar navbar-expand-lg naavbar " id="navbar">
             <div class="container-fluid">
-                <div><img src="./images/logofinal.png"  class="navbar-brand logo " href="#"></img>
+                <div><img src="./images/logofinal.png" class="navbar-brand logo " href="#"></img>
                 </div>
                 <div>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#quienessomos">¿Quienes somos?</a>
+                                <a class="nav-link" href="#quienesSomos">¿Quienes somos?</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#producto">Productos</a>

@@ -14,7 +14,7 @@ function QuienesSomos() {
 
                         <div
                             className=" container-text ">
-                            <p className=" right-0 inline-block sm:text-4xl">
+                            <p className=" ">
                                 Somos una empresa con 15 años de experiencia, especializados en la distribucion de productos
                                 alimenticios y
                                 abasteciendo al rubro gastronomico y pastelero en todo el pais, con insumos de primera

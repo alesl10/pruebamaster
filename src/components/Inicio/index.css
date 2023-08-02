@@ -3,10 +3,35 @@
 .inicio{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .inicio-text{
+    color: orange;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+.boton{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 4px;
+}
+
+.boton:hover{
+    background-color: orange;
     color: white;
+}
+
+.logoinicio{
+    width: 20rem;
+}
+
+.contenedorinicio{
+    display: flex;
+    align-items: center;
+    width: 70%;
 }

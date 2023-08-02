@@ -45,7 +45,7 @@ function Productos({ products }) {
     };
 
     return (
-        <>
+        <div id='producto'>
 
         <h3 className='titulo-productos'>Nuestros productos</h3>
             <div className='app'>
@@ -54,7 +54,7 @@ function Productos({ products }) {
                         <div className='card-container'>
                             <div className='card-top'>
                                 <img src={p.image4} alt="" className='cardimg' />
-                                <p>{p.nombre}</p>
+                                <p className='textcard'>{p.nombre}</p>
                             </div>
                         </div>
                     ))}
@@ -62,7 +62,7 @@ function Productos({ products }) {
                 </Slider>
 
             </div>
-        </>
+        </div>
     )
 }
 

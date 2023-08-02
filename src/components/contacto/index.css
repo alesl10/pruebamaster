@@ -1,6 +1,6 @@
 .text-contact{
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     text-decoration: underline;
 }
@@ -17,6 +17,8 @@ margin-top: 3rem;
     flex-direction: column;
     width:40rem;
     font-size: 1.1rem;
+    border: 3px solid orange;
+    padding: 2rem;
 }
 
 .etiqueta-form{

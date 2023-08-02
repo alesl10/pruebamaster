@@ -1,12 +1,10 @@
 .footer-container{
-    height: 10em;
     margin-top: 2.5rem;
     background-color: orange;
     display: flex;
     flex-direction: column;
     color: white;
     align-items: center;
-    justify-content: space-between;
 }
 
 .socials-container{
@@ -21,4 +19,16 @@
 .text-icon{
     color: white;
     
+}
+
+.footerredes{
+    display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+gap: 3rem;
+}
+
+.redestext{
+    font-size: 1.5rem;
 }

@@ -9,8 +9,19 @@
     padding: 0px;
     font-size: 1.4rem;
     width: 100%;
-    z-index: 20;
+    z-index: 30;
     transition: all 1s ease ;
+    position: fixed;
+}
+
+
+.naavbarscrolled {
+    background-color: rgb(241, 173, 45, 1);
+    padding: 0px;
+    font-size: 1.4rem;
+    width: 100%;
+    z-index: 30;
+    position: fixed;
 }
 
 .logo {
@@ -36,21 +47,21 @@
 
 .inicio-text {
     font-size: 2rem;
-    width: 70%;
 
 }
 
 .inicio-button {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 4px;
     padding-left: 1em;
     padding-right: 1em;
 }
 
 .inicio-button:hover {
     background-color: orange;
+    color: white;
 }
 
 .fondo {

@@ -27,8 +27,15 @@ align-items: center;
 text-align: center;
 justify-content: space-around;
 gap: 3rem;
+width: 100vw;
 }
 
 .redestext{
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .redestext{
+        font-size: 1.2rem;
+    }
 }

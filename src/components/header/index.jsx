@@ -1,20 +1,7 @@
+import './style.css'
+
 
 const Header = () => {
-
-
-    window.addEventListener('scroll', function () {
-        const navbar = document.querySelector('#navbar')
-        const scrolled = window.scrollY > 200;
-        
-        if (scrolled) {
-            navbar.classList.remove('naavbar')
-            navbar.classList.add('naavbarscrolled')
-        } else {
-            navbar.classList.remove('naavbarscrolled')
-            navbar.classList.add('naavbar')
-        }
-
-    })
 
     return (
         <nav class="navbar navbar-expand-lg naavbar " id="navbar">

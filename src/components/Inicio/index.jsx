@@ -10,7 +10,7 @@ const Inicio = () => {
                 <h4 class="inicio-text">Desde nuestros origenes tuvimos como objetivo ser lideres y referentes en materia de calidad
                     y servicio para todo el mercado</h4>
             </div>
-            <button className='boton'>Ver mas</button>
+            <button className='inicio-button'>Ver mas</button>
 
             <button class="inicio-button">Descargar lista de productos</button>
         </section>

@@ -4,8 +4,8 @@
 }
 
 .cardimg {
-    height: 15rem;
-    width: 65%;
+    height: 12rem;
+    width: 60%;
     object-fit: cover;
     margin: auto;
     border-radius: 5px;
@@ -33,8 +33,8 @@
 
 .cardimg:hover{
     filter: contrast(150%);
-    transform: scale(110%);
-    transition: all 0.5s ease-in;
+    transform: scale(105%);
+    transition: all 0.5s ;
 }
 
 .boton{
@@ -45,4 +45,17 @@
     border-radius: 4px;
 display: block;
 margin: auto
+}
+
+@media screen and (max-width: 1024px) {
+    .cardimg{
+        width: 50%;
+        height: 10rem;
+    }
+
+    .cardimg:hover{
+        filter: contrast(150%);
+        transform: scale(105%);
+        transition: all 0.5s ;
+    }
 }

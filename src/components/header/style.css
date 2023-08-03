@@ -1,0 +1,19 @@
+.naavbar {
+    background-color: #ebae6f;
+    padding: 0px;
+    font-size: 1.4rem;
+    width: 100%;
+    z-index: 30;
+    transition: all 1s ease ;
+    position: fixed;
+    box-shadow: 2px 2px 2px black;
+}
+
+.logo {
+    width: 5rem;
+
+}
+
+.nav-link {
+    color: white;
+}

@@ -1,6 +1,6 @@
 .inicio-text{
     color: #ebae6f;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
     
 }
 
@@ -15,11 +15,59 @@
 }
 
 .logoinicio{
-    width: 20rem;
+    width: 20%;
 }
 
 .contenedorinicio{
     display: flex;
     align-items: center;
     width: 70%;
+    gap: 10%;
+}
+
+
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.inicio-title {
+    font-size: 4rem;
+    width: 50%;
+}
+
+.inicio-text {
+    font-size: 2rem;
+
+}
+
+.inicio-button {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ebae6f;
+    border: 2px solid #ebae6f;
+}
+
+.inicio-button:hover {
+    background-color: #ebae6f;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    .inicio-text{
+        font-size: 150%;
+    }
+
+    .inicio-button{
+        font-size: 1rem;
+        border: 1px;
+    }
+
 }

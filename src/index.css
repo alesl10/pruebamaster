@@ -4,68 +4,6 @@
     box-sizing: border-box;
 }
 
-.naavbar {
-    background-color: #ebae6f;
-    padding: 0px;
-    font-size: 1.4rem;
-    width: 100%;
-    z-index: 30;
-    transition: all 1s ease ;
-    position: fixed;
-}
-
-
-.naavbarscrolled {
-    background-color: #ebae6f;
-    padding: 0px;
-    font-size: 1.4rem;
-    width: 100%;
-    z-index: 30;
-    position: fixed;
-}
-
-.logo {
-    width: 5rem;
-
-}
-
-.nav-link {
-    color: white;
-}
-
-.inicio {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.inicio-title {
-    font-size: 4rem;
-    width: 50%;
-}
-
-.inicio-text {
-    font-size: 2rem;
-
-}
-
-.inicio-button {
-    font-size: 1.4rem;
-    font-weight: bolder;
-    background-color: white;
-    border-radius: 4px;
-    padding-left: 1em;
-    padding-right: 1em;
-    color: #ebae6f;
-    border: 2px solid #ebae6f;
-}
-
-.inicio-button:hover {
-    background-color: #ebae6f;
-    color: white;
-}
-
 .fondo {
     position: fixed;
     width: 100%;

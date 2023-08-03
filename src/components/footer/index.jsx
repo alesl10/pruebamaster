@@ -9,10 +9,10 @@ function Footer() {
                     <div >
                         <h4 className='redestext'>¡Seguinos en nuestras redes <br /> para mas novedades!</h4>
                     </div>
+                    <div className="text-center">
+                        <h1 className="">Master Bakery</h1>
+                    </div>
                     <div>
-                        <div className="text-center">
-                            <h1 className="">Master Bakery</h1>
-                        </div>
                         <div className="socials-container">
                             <div>
                                 <a className="text-icon" target="_blank" href="https://www.facebook.com/profile.php?id=100094362511413">@facebook <img className=" icon" src="./images/iconos/facebook.png"

@@ -2,16 +2,15 @@ import React from 'react'
 import './index.css'
 
 const Carousel = () => {
+
     return (
 
         <div class="carousel-container">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <img src="./images/flecha.png" alt="flecha abajo" className='flecha' />
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img src="./images/2.jpg" class=" d-block imagen " alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/1.jpg" class="d-block imagen" alt="..." />
+                        <img src="./images/1.jpg" class=" d-block imagen " alt="..." />
                     </div>
                     <div class="carousel-item">
                         <img src="./images/3.jpg" class="d-block imagen" alt="..." />
@@ -19,7 +18,6 @@ const Carousel = () => {
                     <div class="carousel-item">
                         <img src="./images/4.jpg" class=" d-block imagen" alt="..." />
                     </div>
-                    <h3 class="inicio-title">Los mejores articulos, un solo lugar</h3>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                     data-bs-slide="prev">

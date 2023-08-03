@@ -1,0 +1,7 @@
+.fondo-productos{
+    width: 100vw;
+    height: 100vh;
+background-color: orange;
+position: absolute;
+z-index: -10;
+}

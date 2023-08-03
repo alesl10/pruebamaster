@@ -26,9 +26,9 @@
 }
 
 .app {
+    padding-top: 5% ;
     width: 96vw;
-    height: 50vh;
-
+padding-bottom:10% ;
 }
 
 .cardimg:hover{

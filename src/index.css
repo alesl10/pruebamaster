@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #ebae6f;
+}
+
+a:hover{
+    color: white;
+}
+
 .fondo {
     position: fixed;
     width: 100%;

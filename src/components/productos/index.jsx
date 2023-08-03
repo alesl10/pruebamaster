@@ -44,10 +44,10 @@ function Productos() {
     };
 
     return (
-        <div id='producto'>
+        <div className='app' id='producto'>
 
             <h3 className='titulo-productos'>Productos destacados</h3>
-            <div className='app container'>
+            <div className=' container'>
                 <Slider {...settings} >
                     {destacados.map(p => (
                         <div className='card-container'>

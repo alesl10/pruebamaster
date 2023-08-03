@@ -3,14 +3,28 @@
     padding: 0px;
     font-size: 1.4rem;
     width: 100%;
-    z-index: 30;
-    transition: all 1s ease ;
-    position: fixed;
+    z-index: 40;
+    transition: all 1s  ;
     box-shadow: 2px 2px 2px black;
 }
 
+
+
+.navbar-scrolled{
+position: fixed;
+transition: all 1s  ;
+
+}
+
+.logo-scrolled{
+    width: 4rem;
+    transition: all 1s  ;
+
+}
+
 .logo {
-    width: 5rem;
+    width: 8rem;
+transition: all 1s;
 
 }
 

@@ -1,29 +1,15 @@
 .imagen {
     width: 100%;
-    max-height: 70vh;
+    max-height: 100vh;
     object-fit:cover;
     margin: auto;
-    filter: contrast(110%);
-    border: solid rgb(73, 48, 1);
 }
 
-.inicio-title {
-    color: #ebae6f;
-    text-shadow: 1px 2px 3px black;
-    text-align: center;
+.flecha{
     position: absolute;
-    bottom: 0px;
-    z-index: 10;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.carousel-container{
-    padding-top: 5rem;
-}
-
-@media screen and (max-width: 1024px){
-    .inicio-title{
-        font-size: 300%;
-    }
+    bottom: 5%;
+    z-index: 30;
+left: 50%;
+width: 3%;
+transform:scale(120%);
 }

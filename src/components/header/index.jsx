@@ -1,4 +1,5 @@
 import './style.css'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#producto">Destacados</a></li>
-                                    <li><a class="dropdown-item" href="/products">Ver todos</a></li>
+                                    <li><Link class="dropdown-item" to={'/products'}>Ver todos</Link></li>
                                 </ul>
                             </li>
                             <li class="nav-item">

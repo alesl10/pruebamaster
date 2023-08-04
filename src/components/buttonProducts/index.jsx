@@ -31,9 +31,9 @@ function Filter({ categories, filterCategoriy }) {
         <>
 
             <div className="nav-products">
-                <a href="/"><img src="./images/logofinal.png" alt="Logo MasterBakery" className="logo-productos" /></a>
+                <Link to={'/'}><img src="./images/logofinal.png" alt="Logo MasterBakery" className="logo-productos" /></Link>
                 <div id="nav" className="lista-categoria">{categories.map(category => (
-                    <a  className="categoria" key={category} onClick={() => filterCategoriy(category)}>{category}</a>
+                    <a  className="categoria" key={category} onClick={() => filterCategoriy(category)}>{category}  -  </a>
                 ))}</div>
                 <svg onClick={() => Abrir()} className=" boton-abrir" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
                 <svg id="cerrar" onClick={() => Cerrar()} className="boton-cerrar esconder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" /></svg>

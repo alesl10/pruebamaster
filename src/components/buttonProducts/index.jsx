@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import './style.css'
 
 
 
@@ -26,7 +27,7 @@ function Filter({ categories, filterCategoriy }) {
     return (
         <>
 
-<div >
+<div className="nav-products">
                         {categories.map(category => (
                             <a key={category} onClick={() => filterCategoriy(category)}>{category}</a>
                         ))}

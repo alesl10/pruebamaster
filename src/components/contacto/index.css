@@ -37,3 +37,62 @@ textarea{
 .boton-form:hover{
 background-color: #ebae6f;
 }
+
+@media screen and (max-width:991px) {
+    .text-contact{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    .container-form{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    }
+    
+    .container-form-text {
+        display: flex;
+        flex-direction: column;
+        width:60%;
+        font-size: 1rem;
+        border: 3px solid #ebae6f;
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width:766px) {
+    .text-contact{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    .container-form{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    }
+    
+    .container-form-text {
+        display: flex;
+        flex-direction: column;
+        width:60%;
+        font-size: 0.7rem;
+        border: 3px solid #ebae6f;
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .etiqueta-form{
+        display: flex;
+flex-direction: column;
+    }
+
+    input{
+        width: 100%;
+    }
+}

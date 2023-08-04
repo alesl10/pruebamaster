@@ -80,6 +80,42 @@
     }
 }
 
+@media screen and (max-width: 766px){
+    .inicio-text{
+        font-size: 100%;
+    }
+
+    .inicio-button{
+        font-size: 1rem;
+        border: 1px;
+    }
+
+    .inicio-title{
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .inicio-text{
+display: none;
+    }
+
+    .inicio-button{
+        font-size: 0.8rem;
+        border: 1px;
+    }
+
+    .inicio-title{
+        font-size: 150%;
+    }
+
+    .logoinicio{
+        width: 50%;
+        display: block;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+}
 
 
 

@@ -1,13 +1,14 @@
+import './style.css'
 
 function AllProducts({ productos }) {
 
     return (
-        <div >
+        <div className='repositorio-products'>
             <ul>
                 {productos.map(product => (
-                    <li  key={product.index}>
-                        <p >{product.nombre}</p> 
-                        <p >{product.cantidad}    {product.medida}</p>
+                    <li className="card-products"  key={product.index}>
+                        <p >{product.nombre}</p>
+                        <p >    {product.cantidad}    {product.medida}</p>
                     </li>
                 ))}
             </ul>

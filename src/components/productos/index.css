@@ -59,3 +59,9 @@ margin: auto
         transition: all 0.5s ;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .container{
+        width: 100%;
+    }
+}

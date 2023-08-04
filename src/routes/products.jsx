@@ -27,11 +27,10 @@ function Products() {
 
     return (
         < >
-            <div className='flex h-screen flex-col justify-between'>
+            <div >
                 <NavBarProducts />
                 <Filter categories={categories} filterCategoriy={filterCategoriy} />
                 <AllProducts productos={productos} />
-                <Footer />
             </div>
         </>
     )

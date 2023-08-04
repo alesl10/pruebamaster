@@ -10,7 +10,7 @@ function Footer() {
                         <h4 className='redestext'>¡Seguinos en nuestras redes <br /> para mas novedades!</h4>
                     </div>
                     <div className="text-center">
-                        <h1 className="">Master Bakery</h1>
+                        <h1 className="title-footer">Master Bakery</h1>
                     </div>
                     <div>
                         <div className="socials-container">

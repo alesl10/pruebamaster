@@ -39,3 +39,27 @@ width: 100vw;
         font-size: 1.2rem;
     }
 }
+
+
+@media screen and (max-width:766px) {
+    .redestext{
+        font-size: 1.5rem;
+    }
+
+    .title-footer{
+display: none;
+    }
+
+    .footerredes{
+        display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .footer-container{
+        display: none;
+    }
+}

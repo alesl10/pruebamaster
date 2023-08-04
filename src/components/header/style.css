@@ -31,3 +31,18 @@ transition: all 1s;
 .nav-link {
     color: white;
 }
+
+@media screen and (max-width:575px) {
+    .logo{
+        width: 4rem;
+    }
+
+    .naavbar {
+        background-color: #ebae6f;
+        padding: 0px;
+        width: 100vw;
+        z-index: 40;
+        transition: all 1s  ;
+        box-shadow: 2px 2px 2px black;
+    }
+}

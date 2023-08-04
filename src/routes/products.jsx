@@ -3,7 +3,6 @@ import { useState } from 'react'
 import Filter from '../components/buttonProducts/index.jsx'
 import AllProducts from '../components/allProducts/index.jsx'
 import NavBarProducts from '../components/NavBarProducts/index.jsx'
-import Footer from '../components/footer/index.jsx'
 
 
 
@@ -27,6 +26,11 @@ function Products() {
 
     return (
         < >
+        <div className="fondo"
+        style={{ backgroundImage: "url(./images/dest4.jpg)" }}>
+        <div className="fondo-opacity">
+        </div>
+      </div>
             <div >
                 <NavBarProducts />
                 <Filter categories={categories} filterCategoriy={filterCategoriy} />

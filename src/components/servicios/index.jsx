@@ -32,7 +32,7 @@ function Servicios() {
                         <p className="">Importadores directos</p>
                         <img src="./images/iconos/globo (1).png" className=" icon" alt=""/>
                     </div> */}
-                    <div className="container-icon">
+                    <div className="container-icon ">
                         <img src="./images/iconos/globo (1).png" className="icon-serv" alt="imagen importadores directos"/>
                             <p className="">Importadores directos</p>
                     </div>

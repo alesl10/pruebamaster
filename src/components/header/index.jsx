@@ -34,8 +34,14 @@ const Header = () => {
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#producto">Productos</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#producto">Destacados</a></li>
+                                    <li><a class="dropdown-item" href="/products">Ver todos</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#quienesSomos">¿Quiénes somos?</a>

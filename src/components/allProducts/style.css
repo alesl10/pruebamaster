@@ -1,5 +1,5 @@
 .card-products{
-    background-color: #ebae6f;
+    background-color: #ebad6f9c;
     display: flex;
 gap: 20%;
 font-size: 1rem;
@@ -14,6 +14,5 @@ padding-left: 1%;
     color: white;
 }
 
-.repositorio-products{
-    height: 100vh;
-}
+
+

@@ -92,7 +92,16 @@ background-color: #ebae6f;
 flex-direction: column;
     }
 
+    .text-contact{
+        font-size: 1.5rem;
+    }
+
     input{
         width: 100%;
+    }
+
+    .container-form-text{
+        width: 95%;
+        font-size: 1rem;
     }
 }

@@ -11,7 +11,7 @@ const Inicio = () => {
                 <h4 class="inicio-text">Desde nuestros origenes tuvimos como objetivo ser lideres y referentes en materia de calidad
                     y servicio para todo el mercado</h4>
             </div>
-            <button className='inicio-button'>Ver más</button>
+            <button className='inicio-button'><a href="/products">Ver más</a></button>
 
             <button class="inicio-button" ><a href="PRODUCTOS.pdf" download='Productos.pdf'>Descargar lista de productos</a></button>
         </section>

@@ -1,4 +1,4 @@
-.title-servicios{
+.title-servicios {
     text-decoration-color: #ebae6f;
     color: #ebae6f;
     font-size: 2.3rem;
@@ -6,19 +6,19 @@
     margin: 2rem;
 }
 
-.container-servicios{
+.container-servicios {
     display: flex;
     align-items: center;
     color: white;
     justify-content: space-around;
 }
 
-.icon-serv{
+.icon-serv {
     width: 5rem;
     height: auto;
 }
 
-.container-icon{
+.container-icon {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -26,29 +26,29 @@
     font-size: 1.5rem;
 }
 
-.servicios{
+.servicios {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
 @media screen and (max-width:1024px) {
-    .container-icon{
+    .container-icon {
         font-size: 120%;
     }
 }
 
 @media screen and (max-width:766px) {
-    .container-icon{
+    .container-icon {
         font-size: 80%;
     }
 
-    .icon-serv{
+    .icon-serv {
         width: 4rem;
         height: auto;
     }
 
-    .title-servicios{
+    .title-servicios {
         text-decoration-color: #ebae6f;
         color: #ebae6f;
         font-size: 1.9rem;
@@ -58,11 +58,11 @@
 }
 
 @media screen and (max-width:575px) {
-    .container-icon{
+    .container-icon {
         font-size: 100%;
     }
 
-    .container-servicios{
+    .container-servicios {
         display: flex;
         flex-direction: column;
         align-items: center;

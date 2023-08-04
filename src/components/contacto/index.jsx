@@ -40,7 +40,7 @@ function Contacto() {
                         </div>
                         <div className="etiqueta-form">
                             <p >Tu CUIT(sin guiones):</p>
-                            <input required type="text" name="cuit" />
+                            <input required type="number" name="cuit" />
                         </div>
                         <div className="etiqueta-form">
                             <p >Tu Razon Social:</p>
@@ -52,7 +52,7 @@ function Contacto() {
                         </div>
                         <div className="etiqueta-form">
                             <p >Tu Teléfono: </p>
-                            <input required type="text" name="telefono" />
+                            <input required type="number" name="telefono" />
                         </div>
                         <div className="etiqueta-form">
                             <p >Tu Localidad y Provincia: </p>

@@ -52,7 +52,7 @@ function Productos() {
                     {destacados.map(p => (
                         <div className='card-container'>
                             <div className='card-top'>
-                                <img src={p.image4} alt="" className='cardimg' />
+                                <img src={p.image4} alt="imagen producto destacado" className='cardimg' />
                             </div>
                         </div>
                     ))}

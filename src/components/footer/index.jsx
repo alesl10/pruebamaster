@@ -16,11 +16,11 @@ function Footer() {
                         <div className="socials-container">
                             <div>
                                 <a className="text-icon" target="_blank" href="https://www.facebook.com/profile.php?id=100094362511413">@facebook <img className=" icon" src="./images/iconos/facebook.png"
-                                    alt="" /></a>
+                                    alt="logo facebook" /></a>
                             </div>
                             <div>
                                 <a className="text-icon " target="_blank" href="https://www.instagram.com/masterbakery.arg/">@instagram <img className="icon"
-                                    src="./images/iconos/instagram.png" alt="" /></a>
+                                    src="./images/iconos/instagram.png" alt="logo instragram" /></a>
                             </div>
                         </div>
                     </div>

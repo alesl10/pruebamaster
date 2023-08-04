@@ -12,19 +12,19 @@ function Servicios() {
 
                 <div className="container-servicios">
                     <div className="container-icon">
-                        <img src="./images/iconos/camion (1).png" className="icon-serv" alt=""/>
-                            <p className="">Envios a todo el pais</p>
+                        <img src="./images/iconos/camion (1).png" className="icon-serv" alt="imagen envios"/>
+                            <p className="">Envíos a todo el pais</p>
                     </div>
                     {/* <div className="container-icon">
                         <p className="">Atencion personalizada</p>
                         <img src="./images/iconos/hombre (1).png" className="icon" alt=""/>
                     </div> */}
                     <div className="container-icon">
-                        <img src="./images/iconos/hombre (1).png" className="icon-serv" alt=""/>
-                            <p className="">Atencion personalizada</p>
+                        <img src="./images/iconos/hombre (1).png" className="icon-serv" alt="imagen atencion personalizada"/>
+                            <p className="">Atención personalizada</p>
                     </div>
                     <div className="container-icon">
-                        <img src="./images/iconos/favoritos (1).png" className="icon-serv" alt=""/>
+                        <img src="./images/iconos/favoritos (1).png" className="icon-serv" alt="imagen productos de calidad"/>
                             <p className="l">Productos de primera calidad
                             </p>
                     </div>
@@ -33,7 +33,7 @@ function Servicios() {
                         <img src="./images/iconos/globo (1).png" className=" icon" alt=""/>
                     </div> */}
                     <div className="container-icon">
-                        <img src="./images/iconos/globo (1).png" className="icon-serv" alt=""/>
+                        <img src="./images/iconos/globo (1).png" className="icon-serv" alt="imagen importadores directos"/>
                             <p className="">Importadores directos</p>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ export default [
 
     },
     {
-        "nombre": "dulce de leche repostero",
+        "nombre": "Dulce de leche repostero",
         "cantidad": 10,
         "medida": "kg",
         image1: './images/dulce1.jpg',
@@ -23,7 +23,7 @@ export default [
 
     },
     {
-        "nombre": "dulce de leche repostero",
+        "nombre": "Dulce de leche repostero",
         "cantidad": 10,
         "medida": "kg",
         image1: './images/dulce1.jpg',
@@ -42,7 +42,7 @@ export default [
 
     },
     {
-        "nombre": "bizcochuelo de Chocolate",
+        "nombre": "Bizcochuelo de Chocolate",
         "cantidad": 5,
         "medida": "kg",
         "categoria": "premezclas",
@@ -50,7 +50,7 @@ export default [
 
     },
     {
-        "nombre": "bizcochuelo de Vainilla",
+        "nombre": "Bizcochuelo de Vainilla",
         "cantidad": 5,
         "medida": "kg",
         "categoria": "premezclas",

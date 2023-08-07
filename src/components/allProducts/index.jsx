@@ -9,7 +9,7 @@ function AllProducts({ productos }) {
                 <ul>
                     {productos.map(product => (
                         <li className="card-products" key={product.index}>
-                            <p >{product.nombre}</p>
+                            <p >{product.nombre} </p>
                             <p >    {product.cantidad}    {product.medida}</p>
                         </li>
                     ))}

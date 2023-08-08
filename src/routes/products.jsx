@@ -28,7 +28,7 @@ function Products() {
         < >
         <div className="fondo"
         style={{ backgroundImage: "url(./images/dest4.jpg)" }}>
-        <div className="fondo-opacity">
+        <div className="fondo-opacity-productos">
         </div>
       </div>
             <div >

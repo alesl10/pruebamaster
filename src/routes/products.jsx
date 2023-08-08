@@ -33,8 +33,8 @@ function Products() {
       </div>
             <div >
                 <NavBarProducts />
-                <Filter categories={categories} filterCategoriy={filterCategoriy} />
-                <AllProducts productos={productos} />
+                {/* <Filter categories={categories} filterCategoriy={filterCategoriy} /> */}
+                <AllProducts productos={productos} filterCategoriy={filterCategoriy}  />
             </div>
         </>
     )

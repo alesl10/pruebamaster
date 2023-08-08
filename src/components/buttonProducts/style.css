@@ -79,9 +79,9 @@
 }
 
 .categoria {
-    width: 35vw;
+    width: 20rem;
     border: 2px solid black;
-    height: 25vh;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;

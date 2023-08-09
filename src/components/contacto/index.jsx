@@ -15,7 +15,7 @@ function Contacto() {
           )
         e.preventDefault();
 
-        emailjs.sendForm('service_r2s1uhy', 'template_l6lc2tr', form.current, 'Uz1PxRjY_kwdr19gN')
+        emailjs.sendForm('service_fa1eq1h', 'template_l6lc2tr', form.current, 'Uz1PxRjY_kwdr19gN')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

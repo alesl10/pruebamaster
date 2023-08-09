@@ -1,72 +1,15 @@
-.card-products {
-    width: 10rem;
-    padding: 0.5rem;
-    text-align: center;
-    list-style: none;
+.card-products{
+    background-color: #ebad6f9c;
+    display: flex;
+gap: 20%;
+font-size: 1rem;
+font-weight: 600;
+border: 1px black solid;
+padding-left: 1%;
+
 }
 
-.card-products p {
+.card-products p{
+    width: 20%;
     color: white;
-    font-weight: bolder;
 }
-
-.repositorio-products {
-    display: flex;
-    justify-content: space-around;
-gap: 2%;
-margin: 2%;
-}
-
-.subcategorias {
-    list-style: none;
-    font-weight: bold;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    height: 5rem;
-    cursor: pointer;
-    margin: 2%;
-}
-
-
-.imagen-categoria {
-    object-fit: cover;
-    filter: grayscale(80%);
-}
-
-.titulo-categoria {
-    position: absolute;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.subcategorias:hover {
-    .imagen-categoria {
-        filter: saturate(120%);
-    }
-}
-
-.logo-products {
-    width: 4rem;
-    margin: 0.5rem;
-}
-
-.navbar-products {
-    background-color: rgb(245, 195, 102);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.repo-products{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
-    border: 2px solid orange;
-    margin-right: 4%;
-    
-}
-
